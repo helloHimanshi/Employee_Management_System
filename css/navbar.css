@@ -1,0 +1,21 @@
+.my-navbar {
+    background: lavender;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+.navbar {
+    max-width: 90%;
+    margin: auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav a b {
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+}

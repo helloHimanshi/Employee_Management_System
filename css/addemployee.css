@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form_wrapper {
+    width: 70%;
+    box-shadow: 0px 0px 20px black;
+    position: absolute;
+    margin: auto;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.form_wrapper .form_div {
+    width: 100%;
+    padding: 5% 0;
+    background-color: lavender;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.containr .form_wrapper .form_div h2 {
+    color: #3F0713;
+    margin: 0 2.5% 5%;
+    font-family: cursive;
+}
+
+.form_table {
+    width: 100% !important;
+    margin-bottom: 3.5%;
+}
+
+.form_wrapper .formform_div .form_group {
+    width: 100%;
+    position: relative;
+}
+
+.form_wrapper .form_div .form_group input {
+    width: 90%;
+    padding: 10px;
+    margin: 2.5%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.form_wrapper .form_div .form_group select {
+    width: 89%;
+    padding: 2.4%;
+    border-radius: 5px;
+    font-family: fontawesome;
+    border-style: inset;
+    border-color: black;
+}
+
+.form_wrapper .form_div .form_group .fontfa {
+    font-family: fontawesome;
+}
+
+.bttn {
+    width: 70%;
+    padding: 15px;
+    margin-top: 7.5%;
+    background-color: #852747;
+    margin-top: 15px;
+    color: lavender;
+    border-radius: 20px;
+    border-style: no;
+    transition: .3s;
+}
+
+.bttn:hover {
+    background-color: #3F0713;
+    transform: scale(1.1);
+}
